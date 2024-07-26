@@ -16,7 +16,15 @@
         {
             http.client.GET();
         }
+    
+    // Bug-132 fix changes
+        function get()
+        {
+            abc = 987;
+            mnb = "Shubham"
+        }
     </script>
+
 </head>
 
 <body>
