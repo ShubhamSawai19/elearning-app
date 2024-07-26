@@ -16,9 +16,17 @@
         {
             http.client.GET();
         }
-    
+
+    // BUg-131 fix changes
+        function update()
+        {
+            var ab = 123;
+            var mn = 543;
+            //logic remaining....
+        }
+
     // Bug-132 fix changes
-        function get()
+            function get()
         {
             abc = 987;
             mnb = "Shubham"
